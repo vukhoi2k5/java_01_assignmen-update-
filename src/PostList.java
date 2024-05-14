@@ -1,11 +1,11 @@
-public class postList {
-    long id;
-    String articleTitle;
-    String describe;
-    String avatar;
-    String writer ;
-    String dateofwriting;
-    public postList(){
+public class PostList {
+    private long id;
+    private String articleTitle;
+    private String describe;
+    private String avatar;
+    private String writer ;
+    private String dateofwriting;
+    public PostList(){
     }
 
     public String getArticleTitle() {
